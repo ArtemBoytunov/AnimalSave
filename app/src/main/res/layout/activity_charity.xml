@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".CharityActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="ПОМОЩЬ ПРИЮТАМ ДЛЯ ЖИВОТНЫХ"
+        android:textColor="#FF9800"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Мы создали проект «AnimalSAVE», чтобы бездомные животные нашли новых любящих хозяев. В приютах, где они содержатся, царит атмосфера добра и заботы. Поддерживают её люди, которым не безразлична судьба наших четвероногих друзей. Если вы не можете взять в дом собаку или кошку, но хотите оказать помощь в их содержании, будем рады любому участию."
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="ВИДЫ ПОМОЩИ ПРИЮТАМ"
+        android:textColor="#FF9800"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="- Вы можете оказать посильную материальную помощь приютам для животных, направив в их адрес деньги или средства для ухода за питомцами и их домиками: наполнители для туалета, одноразовые пелёнки, матрасы для сна, игрушки.  - Сотрудникам приюта иногда приходится нелегко, поэтому они с радостью примут помощь волонтёров. Работа найдётся для всех: надо убирать вольеры и клетки для собак и кошек, водить животных к ветеринару, выгуливать. Это можно делать регулярно или приходить, когда есть настроение и время.  - Информационная поддержка тоже важна. Чем больше людей узнает о приютах, тем скорее у их подопечных появятся новые хозяева. Пишите о нашем проекте в социальных сетях, создавайте блоги о работе волонтёров."
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="Cвязаться" />
+
+</LinearLayout>
